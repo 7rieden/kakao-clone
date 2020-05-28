@@ -3,23 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/85e4202d95.js"
-      crossorigin="anonymous"
-    ></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/7e3eec3af6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
     <title>Friends | Kakao Clone</title>
   </head>
+
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span class="status-bar__clock">13:54</span>
+        <span class="status-bar__clock">10:06</span>
       </div>
       <div class="status-bar__column">
-        <i class="far fa-clock"></i>
+        <i class="fas fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        <i class="fas fa-battery-full"></i>
         <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
       </div>
     </div>
     <header class="header">
@@ -28,36 +28,100 @@
       </div>
       <div class="header__header-column">
         <span class="header__icon">
-          <i class="fa fa-search" aria-hidden="true"></i>
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon add-friend">
+          <a href="find.html">
+            <i class="fas fa-user-plus"></i>
+          </a>
         </span>
         <span class="header__icon">
-          <i class="fa fa-cog" aria-hidden="true"></i>
+          <i class="fas fa-music"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
         </span>
       </div>
     </header>
+    <main class="friends">
+      <header class="friends__header">
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="https://scontent-dus1-1.xx.fbcdn.net/v/t1.0-9/48398950_2017385444978009_2436256396916817920_o.jpg?_nc_cat=111&amp;_nc_sid=09cbfe&amp;_nc_ohc=TpS_2_JDY2oAX8u1Qhv&amp;_nc_ht=scontent-dus1-1.xx&amp;oh=c5f1678721b72ca80abab2e5a05f5843&amp;oe=5EEDD861" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Daeyoung Yoon
+              </span>
+              <span class="friend__status">
+                Learning HTML&CSS
+              </span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="friends__plus">
+        <h5 class="friends__title">Plus friend</h5>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="https://scontent-dus1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/94706665_526312958255107_8713022212247841189_n.jpg?_nc_ht=scontent-dus1-1.cdninstagram.com&amp;_nc_cat=107&amp;_nc_ohc=V6WyPzfD0nUAX8cWfsP&amp;oh=6ef2dc17c3518babe8c6efa8c8eebfe5&amp;oe=5EF1E6F1" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Nicolas
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="friends__list">
+        <h5 class="friends__title">Friends</h5>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/udi.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name"> Udi </span>
+              <span class="friend__status">
+                I like Kallax :)
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>
+                IU-Blueming
+                <i class="fas fa-play"></i>
+              </span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
-          <a href="/friends.html" class="nav__list-link">
-            <i class="far fa-user"></i>
-          </a>
+          <a href="friends.html" class="nav__list-link">
+            <i class="fas fa-user"></i
+          ></a>
         </li>
         <li class="nav__list-item">
-          <a href="/index.html" class="nav__list-link">
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">3</div>
             <i class="far fa-comment"></i>
           </a>
         </li>
         <li class="nav__list-item">
-          <a href="/find.html" class="nav__list-link">
-            <i class="fa fa-search" aria-hidden="true"></i>
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
           </a>
         </li>
         <li class="nav__list-item">
-          <a href="/more.html" class="nav__list-link">
+          <a href="more.html" class="nav__list-link">
             <i class="fas fa-ellipsis-h"></i>
           </a>
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">😊Please make your screen small!😊</span>
+    </div>
   </body>
 </html>

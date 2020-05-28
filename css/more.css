@@ -1,0 +1,103 @@
+.more__kakao-pay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .friend__column-emo{
+      font-size: 19px;
+  }
+  .more__kakao-pay .pay__column {
+    display: flex;
+    align-items: center;
+  }
+  .pay__column .pay-icon {
+    color: #484848;
+  }
+  .pay__column .pay-money {
+    opacity: 0.5;
+    margin-left: 3px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+  .pay__column .pay-charge {
+    display: inline-block;
+    background-color: white;
+    margin-left: 10px;
+    height: 20px;
+    width: 45px;
+    padding-top: 4px;
+    padding-left: 4px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .pay__column .pay-send {
+    border-right: solid 1px #a0a0a0;
+    padding-right: 5px;
+    margin-right: 5px;
+    font-weight: 600;
+  }
+  .pay-pay{
+    font-weight: 600;
+  }
+  .more .more__btn-list,
+  .more .more__suggestions-list {
+    margin: 20px 0px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .more__btn-list .more__btn {
+    margin-top: 10px;
+    height: 70px;
+    width: 70px;
+  }
+  .more__btn-list .more__btn,
+  .more .suggestion {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .more__btn .more__btn-title {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .more .more__suggestions {
+    border-top: 1px solid #f7f7f7;
+    padding-top: 20px;
+  }
+  
+  .more .more__title {
+    opacity: 0.8;
+    margin-bottom: 20px;
+  }
+  
+  .suggestion .suggestion__title {
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  
+  .suggestion .suggestion__icon {
+    background-color: #fce006;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .suggestion__icon i {
+    font-size: 28px;
+    color: white;
+  }
